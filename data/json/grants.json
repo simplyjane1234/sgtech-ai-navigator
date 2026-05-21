@@ -1,0 +1,146 @@
+[
+  {
+    "grant_id": "GR001",
+    "grant_name": "Productivity Solutions Grant",
+    "short_name": "PSG",
+    "description": "Supports adoption of pre-approved productivity and digital solutions.",
+    "supported_categories": [
+      "CRM",
+      "Accounting",
+      "HR",
+      "Marketing Automation",
+      "E-commerce"
+    ],
+    "business_functions": [
+      "Sales & Marketing",
+      "Finance",
+      "Operations",
+      "HR"
+    ],
+    "estimated_support": "Check current official grant page",
+    "eligibility_hints": "Singapore-registered SME; minimum local shareholding may apply; purchase must meet scheme criteria",
+    "keywords": [
+      "psg",
+      "productivity",
+      "digital solution",
+      "crm",
+      "accounting"
+    ],
+    "source_url": "https://www.gobusiness.gov.sg/productivity-solutions-grant/",
+    "last_verified": "2026-05-20",
+    "curation_status": "Needs verification",
+    "notes": "Use as realistic sample, verify current coverage before launch"
+  },
+  {
+    "grant_id": "GR002",
+    "grant_name": "Enterprise Development Grant",
+    "short_name": "EDG",
+    "description": "Supports projects that help companies upgrade, innovate or venture overseas.",
+    "supported_categories": [
+      "Business Strategy",
+      "Process Redesign",
+      "Automation",
+      "Innovation"
+    ],
+    "business_functions": [
+      "Operations",
+      "Sales & Marketing",
+      "Finance"
+    ],
+    "estimated_support": "Check current official grant page",
+    "eligibility_hints": "Company should be registered and operating in Singapore; project scope and capability outcomes matter",
+    "keywords": [
+      "edg",
+      "enterprise development",
+      "capability",
+      "innovation"
+    ],
+    "source_url": "https://www.enterprisesg.gov.sg/financial-support/enterprise-development-grant",
+    "last_verified": "2026-05-20",
+    "curation_status": "Needs verification",
+    "notes": "May fit broader transformation or process redesign projects"
+  },
+  {
+    "grant_id": "GR003",
+    "grant_name": "SkillsFuture Enterprise Credit",
+    "short_name": "SFEC",
+    "description": "Helps employers offset out-of-pocket expenses for enterprise and workforce transformation programmes.",
+    "supported_categories": [
+      "Training",
+      "Workforce Transformation",
+      "Capability Building"
+    ],
+    "business_functions": [
+      "HR",
+      "Operations",
+      "Knowledge Management"
+    ],
+    "estimated_support": "Check current official grant page",
+    "eligibility_hints": "Eligibility and claimability should be verified against official sources",
+    "keywords": [
+      "sfec",
+      "skillsfuture",
+      "training",
+      "workforce"
+    ],
+    "source_url": "https://www.skillsfuture.gov.sg/enterprisecredit",
+    "last_verified": "2026-05-20",
+    "curation_status": "Needs verification",
+    "notes": "Useful for AI capability building and training pathways"
+  },
+  {
+    "grant_id": "GR004",
+    "grant_name": "IMDA Advanced Digital Solutions",
+    "short_name": "ADS",
+    "description": "Supports enterprises adopting advanced and integrated digital solutions.",
+    "supported_categories": [
+      "AI",
+      "Automation",
+      "Digital Solutions",
+      "Integrated Systems"
+    ],
+    "business_functions": [
+      "Operations",
+      "Customer Support",
+      "Knowledge Management"
+    ],
+    "estimated_support": "Check current official grant page",
+    "eligibility_hints": "Eligibility and available solution categories may change",
+    "keywords": [
+      "imda",
+      "advanced digital solutions",
+      "ai",
+      "automation"
+    ],
+    "source_url": "https://www.imda.gov.sg/",
+    "last_verified": "2026-05-20",
+    "curation_status": "Needs verification",
+    "notes": "Placeholder for validation conversations"
+  },
+  {
+    "grant_id": "GR005",
+    "grant_name": "Company Training Committee Grant",
+    "short_name": "CTC Grant",
+    "description": "Supports transformation projects driven by company training committees.",
+    "supported_categories": [
+      "Workforce Redesign",
+      "Training",
+      "Productivity"
+    ],
+    "business_functions": [
+      "HR",
+      "Operations"
+    ],
+    "estimated_support": "Check current official grant page",
+    "eligibility_hints": "Union/company conditions may apply; verify eligibility",
+    "keywords": [
+      "ctc",
+      "training",
+      "workforce transformation"
+    ],
+    "source_url": "https://www.ntuc.org.sg/",
+    "last_verified": "2026-05-20",
+    "curation_status": "Needs verification",
+    "notes": "Useful for AI adoption tied to workforce redesign"
+  }
+]

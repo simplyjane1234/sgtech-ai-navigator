@@ -1,0 +1,290 @@
+[
+  {
+    "starter_kit_id": "SK001",
+    "title": "Lead Generation Starter Kit",
+    "business_function": "Sales & Marketing",
+    "objective": "Improve and automate lead capture, enrichment and follow-up.",
+    "workflow_summary": [
+      "Capture leads",
+      "enrich records",
+      "score leads",
+      "trigger outreach",
+      "review pipeline"
+    ],
+    "required_data": [
+      "Contact name",
+      "company",
+      "email",
+      "industry",
+      "source channel"
+    ],
+    "suggested_kpis": [
+      "Cost per lead",
+      "conversion rate",
+      "response rate",
+      "qualified leads"
+    ],
+    "implementation_steps": [
+      "Define ICP",
+      "choose CRM",
+      "import leads",
+      "set scoring rules",
+      "test outreach",
+      "review results weekly"
+    ],
+    "human_review_points": [
+      "Review external messages before sending"
+    ],
+    "output_markdown_filename": "lead_generation.md"
+  },
+  {
+    "starter_kit_id": "SK002",
+    "title": "Customer Support Deflection Starter Kit",
+    "business_function": "Customer Support",
+    "objective": "Reduce repeated customer support workload using FAQs and support automation.",
+    "workflow_summary": [
+      "Collect FAQs",
+      "build knowledge base",
+      "deploy chatbot",
+      "route exceptions",
+      "review unresolved tickets"
+    ],
+    "required_data": [
+      "FAQ documents",
+      "past tickets",
+      "product/service info",
+      "escalation rules"
+    ],
+    "suggested_kpis": [
+      "Deflection rate",
+      "first response time",
+      "CSAT",
+      "unresolved tickets"
+    ],
+    "implementation_steps": [
+      "Audit repeated questions",
+      "create knowledge base",
+      "configure bot",
+      "pilot with common topics",
+      "review weekly"
+    ],
+    "human_review_points": [
+      "Escalate complex or sensitive cases to humans"
+    ],
+    "output_markdown_filename": "customer_support_deflection.md"
+  },
+  {
+    "starter_kit_id": "SK003",
+    "title": "Invoice Processing Starter Kit",
+    "business_function": "Finance",
+    "objective": "Reduce manual invoice and receipt processing effort.",
+    "workflow_summary": [
+      "Capture invoice",
+      "extract fields",
+      "validate entries",
+      "sync to accounting",
+      "approve exceptions"
+    ],
+    "required_data": [
+      "Invoices",
+      "receipts",
+      "vendor list",
+      "chart of accounts",
+      "approval rules"
+    ],
+    "suggested_kpis": [
+      "Processing time",
+      "error rate",
+      "exception rate",
+      "month-end close time"
+    ],
+    "implementation_steps": [
+      "Map current process",
+      "select tool",
+      "configure fields",
+      "test sample invoices",
+      "set approval controls"
+    ],
+    "human_review_points": [
+      "Finance team to review exceptions and final entries"
+    ],
+    "output_markdown_filename": "invoice_processing.md"
+  },
+  {
+    "starter_kit_id": "SK004",
+    "title": "Meeting Summary Starter Kit",
+    "business_function": "Operations",
+    "objective": "Improve meeting documentation and follow-up discipline.",
+    "workflow_summary": [
+      "Record/transcribe",
+      "summarise",
+      "identify actions",
+      "assign owners",
+      "track follow-up"
+    ],
+    "required_data": [
+      "Meeting recordings",
+      "agenda",
+      "attendee list",
+      "project tracker"
+    ],
+    "suggested_kpis": [
+      "Action item completion",
+      "follow-up timeliness",
+      "meeting duration"
+    ],
+    "implementation_steps": [
+      "Set consent rules",
+      "choose tool",
+      "standardise summary format",
+      "review first 10 summaries",
+      "integrate with task tracker"
+    ],
+    "human_review_points": [
+      "Review summaries before circulation"
+    ],
+    "output_markdown_filename": "meeting_summary.md"
+  },
+  {
+    "starter_kit_id": "SK005",
+    "title": "Internal Knowledge Assistant Starter Kit",
+    "business_function": "Knowledge Management",
+    "objective": "Help staff find internal SOPs and policies faster.",
+    "workflow_summary": [
+      "Prepare documents",
+      "index content",
+      "create Q&A assistant",
+      "test answers",
+      "monitor gaps"
+    ],
+    "required_data": [
+      "SOPs",
+      "policies",
+      "FAQs",
+      "process maps",
+      "owner contacts"
+    ],
+    "suggested_kpis": [
+      "Search success rate",
+      "time saved",
+      "repeated questions",
+      "answer accuracy"
+    ],
+    "implementation_steps": [
+      "Curate documents",
+      "remove outdated versions",
+      "set access rules",
+      "test core questions",
+      "publish internal pilot"
+    ],
+    "human_review_points": [
+      "Review answers for policy-sensitive topics"
+    ],
+    "output_markdown_filename": "internal_knowledge_assistant.md"
+  },
+  {
+    "starter_kit_id": "SK006",
+    "title": "Social Media Content Starter Kit",
+    "business_function": "Sales & Marketing",
+    "objective": "Increase content output while maintaining brand consistency.",
+    "workflow_summary": [
+      "Create content pillars",
+      "generate drafts",
+      "design assets",
+      "review",
+      "schedule posts"
+    ],
+    "required_data": [
+      "Brand guide",
+      "product info",
+      "campaign calendar",
+      "approved images"
+    ],
+    "suggested_kpis": [
+      "Posting cadence",
+      "engagement rate",
+      "content approval time",
+      "leads generated"
+    ],
+    "implementation_steps": [
+      "Define brand voice",
+      "prepare prompts",
+      "generate drafts",
+      "review claims",
+      "schedule content"
+    ],
+    "human_review_points": [
+      "Marketing owner to approve before posting"
+    ],
+    "output_markdown_filename": "social_media_content.md"
+  },
+  {
+    "starter_kit_id": "SK007",
+    "title": "HR Onboarding Assistant Starter Kit",
+    "business_function": "HR",
+    "objective": "Give new hires fast access to onboarding information.",
+    "workflow_summary": [
+      "Prepare onboarding FAQs",
+      "upload policies",
+      "create assistant",
+      "monitor questions"
+    ],
+    "required_data": [
+      "HR policies",
+      "onboarding checklist",
+      "benefits info",
+      "organisation chart"
+    ],
+    "suggested_kpis": [
+      "Time to productivity",
+      "repeated HR questions",
+      "new hire satisfaction"
+    ],
+    "implementation_steps": [
+      "Curate HR content",
+      "set sensitive topic boundaries",
+      "pilot with small cohort",
+      "collect feedback"
+    ],
+    "human_review_points": [
+      "HR to review sensitive employment answers"
+    ],
+    "output_markdown_filename": "hr_onboarding.md"
+  },
+  {
+    "starter_kit_id": "SK008",
+    "title": "Operations Workflow Automation Starter Kit",
+    "business_function": "Operations",
+    "objective": "Automate repetitive admin workflows and reporting.",
+    "workflow_summary": [
+      "Map process",
+      "identify triggers",
+      "automate handoffs",
+      "monitor exceptions"
+    ],
+    "required_data": [
+      "Process steps",
+      "forms",
+      "spreadsheets",
+      "approvers",
+      "system access"
+    ],
+    "suggested_kpis": [
+      "Manual hours saved",
+      "error rate",
+      "cycle time",
+      "exception rate"
+    ],
+    "implementation_steps": [
+      "Map workflow",
+      "choose automation tool",
+      "start with low-risk process",
+      "test",
+      "scale"
+    ],
+    "human_review_points": [
+      "Review automations affecting customers or payments"
+    ],
+    "output_markdown_filename": "ops_workflow_automation.md"
+  }
+]

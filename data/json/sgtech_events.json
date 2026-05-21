@@ -1,0 +1,38 @@
+[
+  {
+    "event_id": "EVT001",
+    "event_name": "AI Readiness Workshop",
+    "event_category": "Workshop",
+    "target_audience": "SMEs",
+    "description": "Practical workshop on AI adoption strategies for SMEs.",
+    "member_price": "208",
+    "non_member_price": "268",
+    "registration_link": "https://www.sgtech.org.sg/upcomingEvents",
+    "organiser": "SGTech",
+    "notes": "Sample event for MVP dataset"
+  },
+  {
+    "event_id": "EVT002",
+    "event_name": "Cybersecurity Industry Dialogue",
+    "event_category": "Networking",
+    "target_audience": "Tech Leaders",
+    "description": "Closed-door dialogue on cybersecurity trends and governance.",
+    "member_price": "Free",
+    "non_member_price": "80",
+    "registration_link": "https://www.sgtech.org.sg/upcomingEvents",
+    "organiser": "SGTech",
+    "notes": "Sample event for MVP dataset"
+  },
+  {
+    "event_id": "EVT003",
+    "event_name": "SME Digital Transformation Clinic",
+    "event_category": "Clinic",
+    "target_audience": "SMEs",
+    "description": "1-to-1 consultation clinic for SMEs exploring AI adoption.",
+    "member_price": "Free",
+    "non_member_price": "120",
+    "registration_link": "https://www.sgtech.org.sg/upcomingEvents",
+    "organiser": "SGTech",
+    "notes": "Sample event for MVP dataset"
+  }
+]

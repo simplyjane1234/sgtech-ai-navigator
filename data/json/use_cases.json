@@ -1,0 +1,229 @@
+[
+  {
+    "use_case_id": "UC001",
+    "title": "Lead Generation Automation",
+    "business_function": "Sales & Marketing",
+    "common_pain_points": [
+      "Manual prospecting",
+      "Low lead conversion",
+      "Time spent on outreach"
+    ],
+    "recommended_tool_categories": [
+      "CRM",
+      "Marketing Automation",
+      "Prospecting"
+    ],
+    "recommended_grants": [
+      "PSG",
+      "EDG"
+    ],
+    "starter_kit_id": "SK001",
+    "keywords": [
+      "lead gen",
+      "sales",
+      "marketing",
+      "outreach"
+    ],
+    "priority": "High",
+    "sample_user_prompt": "I want to automate lead generation",
+    "expected_output_type": "Tools + grants + starter kit"
+  },
+  {
+    "use_case_id": "UC002",
+    "title": "Customer Support Deflection",
+    "business_function": "Customer Support",
+    "common_pain_points": [
+      "High support volume",
+      "Repeated questions",
+      "Slow response times"
+    ],
+    "recommended_tool_categories": [
+      "Customer Support",
+      "Chatbot",
+      "Knowledge Base"
+    ],
+    "recommended_grants": [
+      "PSG",
+      "EDG"
+    ],
+    "starter_kit_id": "SK002",
+    "keywords": [
+      "customer support",
+      "chatbot",
+      "faq",
+      "tickets"
+    ],
+    "priority": "High",
+    "sample_user_prompt": "How can AI reduce customer support workload?",
+    "expected_output_type": "Tools + risk notes + starter kit"
+  },
+  {
+    "use_case_id": "UC003",
+    "title": "Invoice Processing Automation",
+    "business_function": "Finance",
+    "common_pain_points": [
+      "Manual invoice entry",
+      "Errors",
+      "Slow month-end closing"
+    ],
+    "recommended_tool_categories": [
+      "Accounting",
+      "Expense Automation",
+      "OCR"
+    ],
+    "recommended_grants": [
+      "PSG",
+      "EDG"
+    ],
+    "starter_kit_id": "SK003",
+    "keywords": [
+      "invoice",
+      "accounting",
+      "receipt",
+      "finance"
+    ],
+    "priority": "High",
+    "sample_user_prompt": "Can AI help with invoice processing?",
+    "expected_output_type": "Tools + grants + checklist"
+  },
+  {
+    "use_case_id": "UC004",
+    "title": "Meeting Summary and Follow-Up",
+    "business_function": "Operations",
+    "common_pain_points": [
+      "Long meetings",
+      "Poor follow-up",
+      "Missed action items"
+    ],
+    "recommended_tool_categories": [
+      "Meeting Assistant",
+      "Productivity"
+    ],
+    "recommended_grants": [
+      "SFEC"
+    ],
+    "starter_kit_id": "SK004",
+    "keywords": [
+      "meeting notes",
+      "summary",
+      "action items"
+    ],
+    "priority": "Medium",
+    "sample_user_prompt": "Can AI summarise meetings and track actions?",
+    "expected_output_type": "Tools + quick-start guide"
+  },
+  {
+    "use_case_id": "UC005",
+    "title": "Internal Knowledge Base Assistant",
+    "business_function": "Knowledge Management",
+    "common_pain_points": [
+      "Staff cannot find SOPs",
+      "Repeated internal questions",
+      "Slow onboarding"
+    ],
+    "recommended_tool_categories": [
+      "Knowledge Management",
+      "General AI Assistant"
+    ],
+    "recommended_grants": [
+      "EDG",
+      "SFEC"
+    ],
+    "starter_kit_id": "SK005",
+    "keywords": [
+      "knowledge base",
+      "sop",
+      "document q&a",
+      "internal chatbot"
+    ],
+    "priority": "High",
+    "sample_user_prompt": "Can I build an internal chatbot for my SOPs?",
+    "expected_output_type": "Tools + governance notes + starter kit"
+  },
+  {
+    "use_case_id": "UC006",
+    "title": "Social Media Content Production",
+    "business_function": "Sales & Marketing",
+    "common_pain_points": [
+      "Content takes too long",
+      "Inconsistent brand voice",
+      "Low posting cadence"
+    ],
+    "recommended_tool_categories": [
+      "Design & Content",
+      "Content Automation"
+    ],
+    "recommended_grants": [
+      "PSG",
+      "SFEC"
+    ],
+    "starter_kit_id": "SK006",
+    "keywords": [
+      "social media",
+      "content",
+      "marketing",
+      "copywriting"
+    ],
+    "priority": "Medium",
+    "sample_user_prompt": "Can AI help me create social media posts?",
+    "expected_output_type": "Tools + starter kit"
+  },
+  {
+    "use_case_id": "UC007",
+    "title": "HR Onboarding Assistant",
+    "business_function": "HR",
+    "common_pain_points": [
+      "New hires ask repeated questions",
+      "Manual onboarding",
+      "Inconsistent training"
+    ],
+    "recommended_tool_categories": [
+      "Knowledge Management",
+      "HR",
+      "General AI Assistant"
+    ],
+    "recommended_grants": [
+      "SFEC",
+      "EDG"
+    ],
+    "starter_kit_id": "SK007",
+    "keywords": [
+      "hr",
+      "onboarding",
+      "training",
+      "employee faq"
+    ],
+    "priority": "Medium",
+    "sample_user_prompt": "Can AI help onboard new staff?",
+    "expected_output_type": "Tools + governance notes"
+  },
+  {
+    "use_case_id": "UC008",
+    "title": "Operations Workflow Automation",
+    "business_function": "Operations",
+    "common_pain_points": [
+      "Manual data entry",
+      "Spreadsheet tracking",
+      "Repeated admin tasks"
+    ],
+    "recommended_tool_categories": [
+      "Workflow Automation",
+      "Productivity",
+      "App Automation"
+    ],
+    "recommended_grants": [
+      "PSG",
+      "EDG"
+    ],
+    "starter_kit_id": "SK008",
+    "keywords": [
+      "automation",
+      "workflow",
+      "operations",
+      "admin"
+    ],
+    "priority": "High",
+    "sample_user_prompt": "How can I automate repetitive admin work?",
+    "expected_output_type": "Tools + workflow guide"
+  }
+]

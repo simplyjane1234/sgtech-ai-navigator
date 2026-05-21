@@ -1,0 +1,68 @@
+[
+  {
+    "membership_type": "Ordinary Membership (OM) — Revenue below S$1M",
+    "membership_category": "Ordinary Membership (OM)",
+    "annual_revenue_band": "Below S$1M",
+    "entrance_fee_sgd": "1090",
+    "annual_fee_sgd": "545",
+    "annual_chapter_fee": "Free for 1st Chapter, S$545 for each additional chapter",
+    "benefits_summary": "Full SGTech membership benefits including industry advocacy, access to events, networking, ecosystem partnerships, and one complimentary chapter. All fees inclusive of 9% GST.",
+    "membership_link": "https://www.sgtech.org.sg/categoriesAndFees",
+    "notes": "Entrance fee is a one-time payment. Annual fee based on Singapore gross revenue."
+  },
+  {
+    "membership_type": "Ordinary Membership (OM) — Revenue S$1M to S$10M",
+    "membership_category": "Ordinary Membership (OM)",
+    "annual_revenue_band": "Above S$1M to S$10M",
+    "entrance_fee_sgd": "1090",
+    "annual_fee_sgd": "1090",
+    "annual_chapter_fee": "Free for 1st Chapter, S$545 for each additional chapter",
+    "benefits_summary": "Full SGTech membership benefits including industry advocacy, access to events, networking, ecosystem partnerships, and one complimentary chapter. All fees inclusive of 9% GST.",
+    "membership_link": "https://www.sgtech.org.sg/categoriesAndFees",
+    "notes": "Entrance fee is a one-time payment. Annual fee based on Singapore gross revenue."
+  },
+  {
+    "membership_type": "Ordinary Membership (OM) — Revenue S$10M to S$30M",
+    "membership_category": "Ordinary Membership (OM)",
+    "annual_revenue_band": "Above S$10M to S$30M",
+    "entrance_fee_sgd": "1090",
+    "annual_fee_sgd": "2180",
+    "annual_chapter_fee": "Free for 1st Chapter, S$545 for each additional chapter",
+    "benefits_summary": "Full SGTech membership benefits including industry advocacy, access to events, networking, ecosystem partnerships, and one complimentary chapter. All fees inclusive of 9% GST.",
+    "membership_link": "https://www.sgtech.org.sg/categoriesAndFees",
+    "notes": "Entrance fee is a one-time payment. Annual fee based on Singapore gross revenue."
+  },
+  {
+    "membership_type": "Ordinary Membership (OM) — Revenue S$30M to S$50M",
+    "membership_category": "Ordinary Membership (OM)",
+    "annual_revenue_band": "Above S$30M to S$50M",
+    "entrance_fee_sgd": "1090",
+    "annual_fee_sgd": "3270",
+    "annual_chapter_fee": "Free for 1st Chapter, S$545 for each additional chapter",
+    "benefits_summary": "Full SGTech membership benefits including industry advocacy, access to events, networking, ecosystem partnerships, and one complimentary chapter. All fees inclusive of 9% GST.",
+    "membership_link": "https://www.sgtech.org.sg/categoriesAndFees",
+    "notes": "Entrance fee is a one-time payment. Annual fee based on Singapore gross revenue."
+  },
+  {
+    "membership_type": "Ordinary Membership (OM) — Revenue above S$50M",
+    "membership_category": "Ordinary Membership (OM)",
+    "annual_revenue_band": "Above S$50M",
+    "entrance_fee_sgd": "1090",
+    "annual_fee_sgd": "5450",
+    "annual_chapter_fee": "Free for 1st Chapter, S$545 for each additional chapter",
+    "benefits_summary": "Full SGTech membership benefits including industry advocacy, access to events, networking, ecosystem partnerships, and one complimentary chapter. All fees inclusive of 9% GST.",
+    "membership_link": "https://www.sgtech.org.sg/categoriesAndFees",
+    "notes": "Entrance fee is a one-time payment. Annual fee based on Singapore gross revenue."
+  },
+  {
+    "membership_type": "Associate Membership (AM)",
+    "membership_category": "Associate Membership (AM)",
+    "annual_revenue_band": "All revenue bands",
+    "entrance_fee_sgd": "1090",
+    "annual_fee_sgd": "545",
+    "annual_chapter_fee": "Free for 1st Chapter, S$545 for each additional chapter",
+    "benefits_summary": "SGTech membership benefits for associate organisations including access to events, networking, and one complimentary chapter. All fees inclusive of 9% GST.",
+    "membership_link": "https://www.sgtech.org.sg/categoriesAndFees",
+    "notes": "Flat annual fee regardless of revenue. Entrance fee is a one-time payment."
+  }
+]

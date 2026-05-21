@@ -1,0 +1,7 @@
+pandas
+openpyxl
+chromadb
+openai
+python-dotenv
+streamlit
+duckduckgo-search

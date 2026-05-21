@@ -1,0 +1,594 @@
+[
+  {
+    "tool_id": "TOOL001",
+    "tool_name": "HubSpot AI",
+    "vendor": "HubSpot",
+    "category": "CRM",
+    "business_functions": [
+      "Sales & Marketing"
+    ],
+    "use_cases": [
+      "Lead generation",
+      "Email automation",
+      "CRM scoring"
+    ],
+    "description": "AI-assisted CRM and marketing automation platform.",
+    "sme_suitability": "High",
+    "pricing_tier": "Mid",
+    "implementation_complexity": "Medium",
+    "risk_level": "Medium",
+    "governance_tags": [
+      "Handles Sensitive Data",
+      "Human Review Required"
+    ],
+    "handles_sensitive_data": "Yes",
+    "website": "https://www.hubspot.com",
+    "source_url": "https://www.hubspot.com",
+    "curation_score": "4",
+    "member_solution": "No",
+    "notes": "Useful for CRM-heavy SMEs"
+  },
+  {
+    "tool_id": "TOOL002",
+    "tool_name": "Mailchimp AI",
+    "vendor": "Intuit Mailchimp",
+    "category": "Marketing Automation",
+    "business_functions": [
+      "Sales & Marketing"
+    ],
+    "use_cases": [
+      "Email campaigns",
+      "Audience segmentation",
+      "Content suggestions"
+    ],
+    "description": "AI-assisted email marketing and customer engagement.",
+    "sme_suitability": "High",
+    "pricing_tier": "Low-Mid",
+    "implementation_complexity": "Low",
+    "risk_level": "Low",
+    "governance_tags": [
+      "Low Risk",
+      "Human Review Required"
+    ],
+    "handles_sensitive_data": "Yes",
+    "website": "https://mailchimp.com",
+    "source_url": "https://mailchimp.com",
+    "curation_score": "4",
+    "member_solution": "No",
+    "notes": "Good for simple marketing campaigns"
+  },
+  {
+    "tool_id": "TOOL003",
+    "tool_name": "Canva AI",
+    "vendor": "Canva",
+    "category": "Design & Content",
+    "business_functions": [
+      "Sales & Marketing"
+    ],
+    "use_cases": [
+      "Social media content",
+      "Ad creatives",
+      "Brand assets"
+    ],
+    "description": "AI-enabled design platform for marketing content creation.",
+    "sme_suitability": "High",
+    "pricing_tier": "Low",
+    "implementation_complexity": "Low",
+    "risk_level": "Low",
+    "governance_tags": [
+      "Low Risk",
+      "Human Review Required"
+    ],
+    "handles_sensitive_data": "No",
+    "website": "https://www.canva.com",
+    "source_url": "https://www.canva.com",
+    "curation_score": "4",
+    "member_solution": "No",
+    "notes": "Good entry-level AI tool"
+  },
+  {
+    "tool_id": "TOOL004",
+    "tool_name": "Jasper",
+    "vendor": "Jasper",
+    "category": "Content Automation",
+    "business_functions": [
+      "Sales & Marketing"
+    ],
+    "use_cases": [
+      "Blog drafts",
+      "Ads",
+      "Campaign copy"
+    ],
+    "description": "AI writing platform for marketing teams.",
+    "sme_suitability": "Medium",
+    "pricing_tier": "Mid",
+    "implementation_complexity": "Low",
+    "risk_level": "Low",
+    "governance_tags": [
+      "Low Risk",
+      "Human Review Required"
+    ],
+    "handles_sensitive_data": "No",
+    "website": "https://www.jasper.ai",
+    "source_url": "https://www.jasper.ai",
+    "curation_score": "3",
+    "member_solution": "No",
+    "notes": "May suit content-heavy firms"
+  },
+  {
+    "tool_id": "TOOL005",
+    "tool_name": "Apollo.io",
+    "vendor": "Apollo.io",
+    "category": "Prospecting",
+    "business_functions": [
+      "Sales & Marketing"
+    ],
+    "use_cases": [
+      "Prospecting",
+      "Lead enrichment",
+      "Outreach"
+    ],
+    "description": "Sales intelligence and outreach platform.",
+    "sme_suitability": "Medium",
+    "pricing_tier": "Mid",
+    "implementation_complexity": "Medium",
+    "risk_level": "Medium",
+    "governance_tags": [
+      "Handles Sensitive Data",
+      "Vendor Due Diligence Needed"
+    ],
+    "handles_sensitive_data": "Yes",
+    "website": "https://www.apollo.io",
+    "source_url": "https://www.apollo.io",
+    "curation_score": "3",
+    "member_solution": "No",
+    "notes": "Check PDPA implications for contact data"
+  },
+  {
+    "tool_id": "TOOL006",
+    "tool_name": "Zendesk AI",
+    "vendor": "Zendesk",
+    "category": "Customer Support",
+    "business_functions": [
+      "Customer Support"
+    ],
+    "use_cases": [
+      "Ticket triage",
+      "FAQ automation",
+      "Agent assist"
+    ],
+    "description": "AI capabilities for support ticket management and customer service.",
+    "sme_suitability": "High",
+    "pricing_tier": "Mid-High",
+    "implementation_complexity": "Medium",
+    "risk_level": "Medium",
+    "governance_tags": [
+      "Handles Sensitive Data",
+      "Human Review Required"
+    ],
+    "handles_sensitive_data": "Yes",
+    "website": "https://www.zendesk.com",
+    "source_url": "https://www.zendesk.com",
+    "curation_score": "4",
+    "member_solution": "No",
+    "notes": "Suitable for support teams with ticket volume"
+  },
+  {
+    "tool_id": "TOOL007",
+    "tool_name": "Intercom Fin",
+    "vendor": "Intercom",
+    "category": "Customer Support",
+    "business_functions": [
+      "Customer Support"
+    ],
+    "use_cases": [
+      "AI chatbot",
+      "Help centre answers",
+      "Ticket deflection"
+    ],
+    "description": "AI customer service assistant based on company help content.",
+    "sme_suitability": "Medium",
+    "pricing_tier": "Mid-High",
+    "implementation_complexity": "Medium",
+    "risk_level": "Medium",
+    "governance_tags": [
+      "Handles Sensitive Data",
+      "Human Review Required"
+    ],
+    "handles_sensitive_data": "Yes",
+    "website": "https://www.intercom.com",
+    "source_url": "https://www.intercom.com",
+    "curation_score": "3",
+    "member_solution": "No",
+    "notes": "Needs good knowledge base content"
+  },
+  {
+    "tool_id": "TOOL008",
+    "tool_name": "Freshdesk AI",
+    "vendor": "Freshworks",
+    "category": "Customer Support",
+    "business_functions": [
+      "Customer Support"
+    ],
+    "use_cases": [
+      "Ticket routing",
+      "Agent assist",
+      "Customer replies"
+    ],
+    "description": "AI features for customer support teams.",
+    "sme_suitability": "High",
+    "pricing_tier": "Mid",
+    "implementation_complexity": "Medium",
+    "risk_level": "Medium",
+    "governance_tags": [
+      "Handles Sensitive Data",
+      "Human Review Required"
+    ],
+    "handles_sensitive_data": "Yes",
+    "website": "https://www.freshworks.com/freshdesk/",
+    "source_url": "https://www.freshworks.com/freshdesk/",
+    "curation_score": "4",
+    "member_solution": "No",
+    "notes": "SME-friendly support option"
+  },
+  {
+    "tool_id": "TOOL009",
+    "tool_name": "Notion AI",
+    "vendor": "Notion",
+    "category": "Knowledge Management",
+    "business_functions": [
+      "Knowledge Management",
+      "Operations"
+    ],
+    "use_cases": [
+      "Document Q&A",
+      "SOP summaries",
+      "Team knowledge"
+    ],
+    "description": "AI assistant within Notion workspaces.",
+    "sme_suitability": "High",
+    "pricing_tier": "Low-Mid",
+    "implementation_complexity": "Low",
+    "risk_level": "Medium",
+    "governance_tags": [
+      "Handles Sensitive Data",
+      "Internal Use Recommended"
+    ],
+    "handles_sensitive_data": "Yes",
+    "website": "https://www.notion.so",
+    "source_url": "https://www.notion.so",
+    "curation_score": "4",
+    "member_solution": "No",
+    "notes": "Useful for internal knowledge bases"
+  },
+  {
+    "tool_id": "TOOL010",
+    "tool_name": "Microsoft Copilot",
+    "vendor": "Microsoft",
+    "category": "Productivity",
+    "business_functions": [
+      "Operations",
+      "Knowledge Management",
+      "Sales & Marketing"
+    ],
+    "use_cases": [
+      "Document drafting",
+      "Meeting summaries",
+      "Email assistance"
+    ],
+    "description": "AI assistant across Microsoft 365 apps.",
+    "sme_suitability": "High",
+    "pricing_tier": "Mid",
+    "implementation_complexity": "Low-Medium",
+    "risk_level": "Medium",
+    "governance_tags": [
+      "Handles Sensitive Data",
+      "Vendor Due Diligence Needed"
+    ],
+    "handles_sensitive_data": "Yes",
+    "website": "https://www.microsoft.com/microsoft-copilot",
+    "source_url": "https://www.microsoft.com/microsoft-copilot",
+    "curation_score": "5",
+    "member_solution": "No",
+    "notes": "Strong fit where SMEs already use Microsoft 365"
+  },
+  {
+    "tool_id": "TOOL011",
+    "tool_name": "Fireflies.ai",
+    "vendor": "Fireflies.ai",
+    "category": "Meeting Assistant",
+    "business_functions": [
+      "Operations",
+      "Sales & Marketing"
+    ],
+    "use_cases": [
+      "Meeting transcription",
+      "Follow-up tasks",
+      "CRM notes"
+    ],
+    "description": "AI meeting note taker and transcription tool.",
+    "sme_suitability": "High",
+    "pricing_tier": "Low-Mid",
+    "implementation_complexity": "Low",
+    "risk_level": "Medium",
+    "governance_tags": [
+      "Handles Sensitive Data",
+      "Human Review Required"
+    ],
+    "handles_sensitive_data": "Yes",
+    "website": "https://fireflies.ai",
+    "source_url": "https://fireflies.ai",
+    "curation_score": "3",
+    "member_solution": "No",
+    "notes": "Check consent and recording practices"
+  },
+  {
+    "tool_id": "TOOL012",
+    "tool_name": "QuickBooks AI",
+    "vendor": "Intuit",
+    "category": "Accounting",
+    "business_functions": [
+      "Finance"
+    ],
+    "use_cases": [
+      "Bookkeeping",
+      "Cashflow insights",
+      "Invoices"
+    ],
+    "description": "Accounting software with automation and AI-assisted insights.",
+    "sme_suitability": "High",
+    "pricing_tier": "Mid",
+    "implementation_complexity": "Medium",
+    "risk_level": "Medium",
+    "governance_tags": [
+      "Handles Sensitive Data",
+      "Human Review Required"
+    ],
+    "handles_sensitive_data": "Yes",
+    "website": "https://quickbooks.intuit.com",
+    "source_url": "https://quickbooks.intuit.com",
+    "curation_score": "4",
+    "member_solution": "No",
+    "notes": "Finance outputs require review"
+  },
+  {
+    "tool_id": "TOOL013",
+    "tool_name": "Xero",
+    "vendor": "Xero",
+    "category": "Accounting",
+    "business_functions": [
+      "Finance"
+    ],
+    "use_cases": [
+      "Accounting",
+      "Invoicing",
+      "Bank reconciliation"
+    ],
+    "description": "Cloud accounting platform with automation features.",
+    "sme_suitability": "High",
+    "pricing_tier": "Mid",
+    "implementation_complexity": "Medium",
+    "risk_level": "Medium",
+    "governance_tags": [
+      "Handles Sensitive Data",
+      "Human Review Required"
+    ],
+    "handles_sensitive_data": "Yes",
+    "website": "https://www.xero.com",
+    "source_url": "https://www.xero.com",
+    "curation_score": "4",
+    "member_solution": "No",
+    "notes": "Common SME accounting tool"
+  },
+  {
+    "tool_id": "TOOL014",
+    "tool_name": "Dext",
+    "vendor": "Dext",
+    "category": "Expense Automation",
+    "business_functions": [
+      "Finance"
+    ],
+    "use_cases": [
+      "Receipt capture",
+      "Expense processing",
+      "Bookkeeping automation"
+    ],
+    "description": "Automates capture and processing of receipts and invoices.",
+    "sme_suitability": "High",
+    "pricing_tier": "Mid",
+    "implementation_complexity": "Medium",
+    "risk_level": "Medium",
+    "governance_tags": [
+      "Handles Sensitive Data",
+      "Human Review Required"
+    ],
+    "handles_sensitive_data": "Yes",
+    "website": "https://dext.com",
+    "source_url": "https://dext.com",
+    "curation_score": "3",
+    "member_solution": "No",
+    "notes": "Good for invoice/receipt-heavy SMEs"
+  },
+  {
+    "tool_id": "TOOL015",
+    "tool_name": "Airtable AI",
+    "vendor": "Airtable",
+    "category": "Workflow Automation",
+    "business_functions": [
+      "Operations"
+    ],
+    "use_cases": [
+      "Workflow tracking",
+      "Database automation",
+      "Reporting"
+    ],
+    "description": "Flexible database and workflow tool with AI features.",
+    "sme_suitability": "Medium",
+    "pricing_tier": "Mid",
+    "implementation_complexity": "Medium",
+    "risk_level": "Medium",
+    "governance_tags": [
+      "Internal Use Recommended",
+      "Vendor Due Diligence Needed"
+    ],
+    "handles_sensitive_data": "Yes",
+    "website": "https://www.airtable.com",
+    "source_url": "https://www.airtable.com",
+    "curation_score": "3",
+    "member_solution": "No",
+    "notes": "Useful for lightweight ops systems"
+  },
+  {
+    "tool_id": "TOOL016",
+    "tool_name": "ClickUp AI",
+    "vendor": "ClickUp",
+    "category": "Project Management",
+    "business_functions": [
+      "Operations",
+      "Knowledge Management"
+    ],
+    "use_cases": [
+      "Project planning",
+      "Task summaries",
+      "Workflow automation"
+    ],
+    "description": "Project management platform with AI productivity features.",
+    "sme_suitability": "High",
+    "pricing_tier": "Low-Mid",
+    "implementation_complexity": "Low",
+    "risk_level": "Low",
+    "governance_tags": [
+      "Low Risk",
+      "Internal Use Recommended"
+    ],
+    "handles_sensitive_data": "No",
+    "website": "https://clickup.com",
+    "source_url": "https://clickup.com",
+    "curation_score": "3",
+    "member_solution": "No",
+    "notes": "Useful for internal productivity"
+  },
+  {
+    "tool_id": "TOOL017",
+    "tool_name": "Monday.com AI",
+    "vendor": "Monday.com",
+    "category": "Workflow Automation",
+    "business_functions": [
+      "Operations"
+    ],
+    "use_cases": [
+      "Workflow management",
+      "Automations",
+      "Reporting"
+    ],
+    "description": "Work management platform with AI features.",
+    "sme_suitability": "Medium",
+    "pricing_tier": "Mid",
+    "implementation_complexity": "Medium",
+    "risk_level": "Medium",
+    "governance_tags": [
+      "Internal Use Recommended",
+      "Vendor Due Diligence Needed"
+    ],
+    "handles_sensitive_data": "Yes",
+    "website": "https://monday.com",
+    "source_url": "https://monday.com",
+    "curation_score": "3",
+    "member_solution": "No",
+    "notes": "Works for ops teams needing structured workflows"
+  },
+  {
+    "tool_id": "TOOL018",
+    "tool_name": "ChatGPT Team",
+    "vendor": "OpenAI",
+    "category": "General AI Assistant",
+    "business_functions": [
+      "Operations",
+      "Sales & Marketing",
+      "Knowledge Management"
+    ],
+    "use_cases": [
+      "Drafting",
+      "Analysis",
+      "Brainstorming",
+      "Document Q&A"
+    ],
+    "description": "General-purpose AI assistant for teams.",
+    "sme_suitability": "High",
+    "pricing_tier": "Mid",
+    "implementation_complexity": "Low",
+    "risk_level": "Medium",
+    "governance_tags": [
+      "Handles Sensitive Data",
+      "Human Review Required"
+    ],
+    "handles_sensitive_data": "Yes",
+    "website": "https://openai.com/chatgpt/business/",
+    "source_url": "https://openai.com/chatgpt/business/",
+    "curation_score": "4",
+    "member_solution": "No",
+    "notes": "Use with clear data policies"
+  },
+  {
+    "tool_id": "TOOL019",
+    "tool_name": "Claude Team",
+    "vendor": "Anthropic",
+    "category": "General AI Assistant",
+    "business_functions": [
+      "Operations",
+      "Knowledge Management",
+      "Sales & Marketing"
+    ],
+    "use_cases": [
+      "Long document analysis",
+      "Writing",
+      "Advisory workflows"
+    ],
+    "description": "General-purpose AI assistant with strong reasoning and long-context use.",
+    "sme_suitability": "High",
+    "pricing_tier": "Mid",
+    "implementation_complexity": "Low",
+    "risk_level": "Medium",
+    "governance_tags": [
+      "Handles Sensitive Data",
+      "Human Review Required"
+    ],
+    "handles_sensitive_data": "Yes",
+    "website": "https://www.anthropic.com/claude",
+    "source_url": "https://www.anthropic.com/claude",
+    "curation_score": "4",
+    "member_solution": "No",
+    "notes": "Strong for document-heavy advisory workflows"
+  },
+  {
+    "tool_id": "TOOL020",
+    "tool_name": "Zapier AI",
+    "vendor": "Zapier",
+    "category": "Automation",
+    "business_functions": [
+      "Operations",
+      "Sales & Marketing",
+      "Finance"
+    ],
+    "use_cases": [
+      "App automation",
+      "Workflow triggers",
+      "Data movement"
+    ],
+    "description": "Automation platform connecting SaaS apps with AI-assisted workflow creation.",
+    "sme_suitability": "High",
+    "pricing_tier": "Low-Mid",
+    "implementation_complexity": "Medium",
+    "risk_level": "Medium",
+    "governance_tags": [
+      "Vendor Due Diligence Needed",
+      "Handles Sensitive Data"
+    ],
+    "handles_sensitive_data": "Yes",
+    "website": "https://zapier.com",
+    "source_url": "https://zapier.com",
+    "curation_score": "4",
+    "member_solution": "No",
+    "notes": "Good for no-code automation"
+  }
+]
