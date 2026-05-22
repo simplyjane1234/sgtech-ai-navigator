@@ -270,3 +270,11 @@ else:
             _handle_user_query(query)
     else:
         st.chat_input("Select a topic above to begin...", disabled=True)
+
+    # ── Feedback button ──
+    st.divider()
+    st.markdown(
+        "**Found this useful? Share your feedback** — it takes 2 minutes and helps us improve.  \n"
+        "[📝 Take the survey →](https://forms.office.com/r/6NSM0xraFf)",
+        unsafe_allow_html=False,
+    )
