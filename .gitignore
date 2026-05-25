@@ -1,3 +1,6 @@
+# Vector DB (rebuilt on startup)
+data/vector_db/
+
 # Secrets
 .env
 .streamlit/credentials.toml
