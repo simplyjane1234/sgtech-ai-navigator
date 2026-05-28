@@ -171,11 +171,14 @@ if not st.session_state.onboarding_complete:
         submitted = st.form_submit_button("Look up my company →", use_container_width=True)
 
     if submitted:
-        if not company_name.strip() or not uen.strip():
-            st.warning("Please enter both your company name and UEN.")
+        if not company_name.strip() and not uen.strip():
+            st.warning("Please enter at least your company name or UEN.")
         else:
             with st.spinner("Looking up your company online..."):
-                profile = lookup_company(company_name.strip(), uen.strip().upper())
+                profile = lookup_company(
+                    company_name.strip() or uen.strip(),
+                    uen.strip().upper() or "Unknown",
+                )
 
             st.session_state.company = profile
             st.session_state.onboarding_complete = True
