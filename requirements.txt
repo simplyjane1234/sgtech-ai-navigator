@@ -5,3 +5,5 @@ openai
 python-dotenv
 streamlit
 duckduckgo-search
+certifi
+sentence-transformers

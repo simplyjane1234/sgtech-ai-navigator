@@ -9,6 +9,8 @@ a minimal profile built from what the user provided.
 import json
 import os
 
+import certifi
+import httpx
 from dotenv import load_dotenv
 from openai import OpenAI
 
@@ -53,7 +55,10 @@ Return a JSON object with exactly these fields:
 If a field cannot be determined from the search results, use a sensible default or "Unknown".
 Do not invent facts — only use what is reasonably supported by the search results or the company name."""
 
-    client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
+    client = OpenAI(
+        api_key=os.environ["OPENAI_API_KEY"],
+        http_client=httpx.Client(verify=certifi.where()),
+    )
     response = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[{"role": "user", "content": prompt}],

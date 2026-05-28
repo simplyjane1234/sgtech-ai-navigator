@@ -14,6 +14,8 @@ import os
 import sys
 from pathlib import Path
 
+import certifi
+import httpx
 from dotenv import load_dotenv
 from openai import OpenAI
 
@@ -219,7 +221,10 @@ def _build_messages(
 
 
 def _call_llm(messages: list[dict], temperature: float = 0.2) -> str:
-    client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
+    client = OpenAI(
+        api_key=os.environ["OPENAI_API_KEY"],
+        http_client=httpx.Client(verify=certifi.where()),
+    )
     response = client.chat.completions.create(
         model=MODEL,
         messages=messages,
