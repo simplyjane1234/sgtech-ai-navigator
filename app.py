@@ -144,7 +144,10 @@ def _handle_topic_switch(mode: str):
     st.session_state.topic_mode = mode
     st.session_state.awaiting_topic = False
     with st.spinner("Loading..."):
-        opener = get_topic_opener(mode, st.session_state.company)
+        try:
+            opener = get_topic_opener(mode, st.session_state.company)
+        except Exception as e:
+            opener = f"Sorry, I couldn't connect to the AI service. Please check your API key or try again in a moment.\n\n_(Error: {e})_"
     _assistant_reply(opener)
     st.rerun()
 
