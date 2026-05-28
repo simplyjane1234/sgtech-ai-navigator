@@ -10,9 +10,8 @@ import json
 import os
 
 import certifi
-import httpx
+import requests
 from dotenv import load_dotenv
-from openai import OpenAI
 
 load_dotenv()
 
@@ -55,17 +54,23 @@ Return a JSON object with exactly these fields:
 If a field cannot be determined from the search results, use a sensible default or "Unknown".
 Do not invent facts — only use what is reasonably supported by the search results or the company name."""
 
-    client = OpenAI(
-        api_key=os.environ["OPENAI_API_KEY"],
-        http_client=httpx.Client(verify=certifi.where()),
+    resp = requests.post(
+        "https://api.openai.com/v1/chat/completions",
+        headers={
+            "Authorization": f"Bearer {os.environ['OPENAI_API_KEY']}",
+            "Content-Type": "application/json",
+        },
+        json={
+            "model": "gpt-4o-mini",
+            "messages": [{"role": "user", "content": prompt}],
+            "response_format": {"type": "json_object"},
+            "temperature": 0,
+        },
+        verify=certifi.where(),
+        timeout=60,
     )
-    response = client.chat.completions.create(
-        model="gpt-4o-mini",
-        messages=[{"role": "user", "content": prompt}],
-        response_format={"type": "json_object"},
-        temperature=0,
-    )
-    return json.loads(response.choices[0].message.content)
+    resp.raise_for_status()
+    return json.loads(resp.json()["choices"][0]["message"]["content"])
 
 
 def lookup_company(company_name: str, uen: str) -> dict:

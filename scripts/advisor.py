@@ -15,9 +15,8 @@ import sys
 from pathlib import Path
 
 import certifi
-import httpx
+import requests
 from dotenv import load_dotenv
-from openai import OpenAI
 
 sys.path.insert(0, str(Path(__file__).parent))
 from retrieval import search_knowledge_base
@@ -221,16 +220,18 @@ def _build_messages(
 
 
 def _call_llm(messages: list[dict], temperature: float = 0.2) -> str:
-    client = OpenAI(
-        api_key=os.environ["OPENAI_API_KEY"],
-        http_client=httpx.Client(verify=certifi.where()),
+    response = requests.post(
+        "https://api.openai.com/v1/chat/completions",
+        headers={
+            "Authorization": f"Bearer {os.environ['OPENAI_API_KEY']}",
+            "Content-Type": "application/json",
+        },
+        json={"model": MODEL, "messages": messages, "temperature": temperature},
+        verify=certifi.where(),
+        timeout=60,
     )
-    response = client.chat.completions.create(
-        model=MODEL,
-        messages=messages,
-        temperature=temperature,
-    )
-    return response.choices[0].message.content.strip()
+    response.raise_for_status()
+    return response.json()["choices"][0]["message"]["content"].strip()
 
 
 # ---------------------------------------------------------------------------
